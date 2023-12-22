@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>School Fee System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>School Fee System</h1>
+        
+        <!-- Form for Fee Submission -->
+        <form action="process.php" method="post">
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" required>
+            
+            <label for="student_name">Student Name:</label>
+            <input type="text" id="student_name" name="student_name" required>
+            
+            <label for="amount_paid">Amount Paid (in Rs.):</label>
+            <input type="number" id="amount_paid" name="amount_paid" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        
+        <h2>Student Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Student Name</th>
+                    <th>Amount Paid</th>
+                    <th>Balance Amount</th>
+                    <th>Transaction Date</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

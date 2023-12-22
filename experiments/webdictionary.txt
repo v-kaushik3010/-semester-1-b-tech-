@@ -1,0 +1,9 @@
+i learned the file handling write mode
+now time  to revise append functin
+here we stsrt to append.
+wait append can be done with fwrite
+here we stsrt to append.
+wait append can be done with fwrite
+here we stsrt to append.
+here we stsrt to append.
+wait append can be done with fwrite

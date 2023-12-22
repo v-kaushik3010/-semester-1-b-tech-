@@ -1,0 +1,41 @@
+<html>
+<head>
+        <title> EXPERIMENT 5 LOGIN PAGE </title>
+        <script>
+            function validate()
+             {
+                var a=document.getElementById("name").value;
+                var b=document.getElementById("pass").value;
+
+                if (a=="Web" && b=="Technology")
+                   {
+                    alert("welcome")
+                   }
+                else
+                {
+                    alert("your username or password is incorrect")
+                }
+            }
+        </script>
+</head>
+<body>
+ <form method =post>
+<table>
+    <tr>
+     <th colspan="2">LOGIN HERE</th>
+    </tr>            
+    <tr>
+     <td>USERNAME</td>
+      <td><input type =text id="name" required  ></td>
+    </tr>
+    <tr>
+     <td>PASSWORD</td>
+     <td><input type="password" id="pass" required></td>
+    </tr>
+    <tr>
+     <td colspan="2"><button type=submit onclick="return validate()">LOGIN</button></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
