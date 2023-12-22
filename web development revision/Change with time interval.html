@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>time interval</title>
+        <script>
+            function color()
+            {
+                if (document.getElementById("back").style.backgroundColor=="red")
+                {
+                    document.getElementById("back").style.backgroundColor="green";
+                }
+                else if (document.getElementById("back").style.backgroundColor=="green")
+                {
+                    document.getElementById("back").style.backgroundColor="blue";  
+                }
+                else 
+                {
+                    document.getElementById("back").style.backgroundColor="red";
+                }
+            }
+        
+        </script>
+    </head>
+    <body id = back onload="setInterval(function(){color()},500)"> hi</body>
+</html>

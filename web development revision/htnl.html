@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function validate()
+            {
+                var a= document.getElementById("pass").value;
+                var b = document.getElementById("cpass").value;
+                if(a!=b){
+                 alert ("password mismathed");
+                 return false;
+                }
+                return true;
+            }
+
+        </script>
+    </head>
+    <body>
+        username
+        <input type="text" ><br><hr>
+        password <input type = password id="pass"><br><hr>
+        confirm password<input type="password" id="cpass"><br><hr>
+        <button onclick="validate()">submit</button>
+    </body>
+</html>
